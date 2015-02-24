@@ -6,6 +6,15 @@ Squeak/Pharo's ImageMorph act strangely when resized. They wrap themselves in aT
 ## Solution
 Rather than emulating the physical world at this low level i.e. using a tool to change the view on a physical object, it may be simpler to create a new concept that empowers the computer by harnessing the possibility of the computer to transcend physical laws. So I propose a magical image - one that seems on the surface to be just like a physical photograph, but in fact can be stretched like taffy.
 
+##Installation
+The code is hosted on SmalltalkHub. Load with:
+```
+Gofer it
+	smalltalkhubUser: 'SeanDeNigris' project: 'SeansPlayground';
+	package: 'SimpleImageMorph';
+	load.
+```
+
 ## Features
 - No more TransformMorphs: You are always dealing with the same Morph now.
 - Aspect ratio fixable: Send #fixAspectRatio or #freeAspectRatio to specify whether image should keep its current proportions
