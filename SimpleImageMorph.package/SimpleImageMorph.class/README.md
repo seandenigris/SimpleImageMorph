@@ -1,0 +1,1 @@
+SimpleImageMorph new openInWorld.

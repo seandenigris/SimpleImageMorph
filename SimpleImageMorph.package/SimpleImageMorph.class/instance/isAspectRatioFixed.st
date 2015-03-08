@@ -1,0 +1,4 @@
+testing
+isAspectRatioFixed
+
+	^ fixedAspectRatio isNotNil

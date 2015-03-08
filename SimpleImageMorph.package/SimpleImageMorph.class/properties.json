@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleImageMorph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SeanDeNigris 2/20/2015 23:26",
+	"instvars" : [
+		"image",
+		"fixedAspectRatio" ],
+	"name" : "SimpleImageMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
